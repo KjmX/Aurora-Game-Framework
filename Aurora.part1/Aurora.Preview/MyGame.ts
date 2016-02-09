@@ -1,10 +1,8 @@
 ﻿/// <reference path="Aurora/Aurora.Framework.d.ts"/>
 
 module Aurora.Preview {
-
-    import Aurora = Kedjour.Aurora.Framework;
-
-    export class MyGame extends Aurora.Game {
+    
+    export class MyGame extends Aurora.Framework.Game {
         
         constructor() {
             super();
@@ -16,11 +14,11 @@ module Aurora.Preview {
 
         protected loadContent() { }
 
-        protected update(gameTime: Aurora.GameTime) {
+        protected update(gameTime: Aurora.Framework.GameTime) {
             console.log(`update() => ${gameTime.ElapsedGameTime.TotalMilliseconds}`);
         }
 
-        protected draw(gameTime: Aurora.GameTime) {
+        protected draw(gameTime: Aurora.Framework.GameTime) {
             console.log(`draw() => ${gameTime.ElapsedGameTime.TotalMilliseconds}`);
         }
 

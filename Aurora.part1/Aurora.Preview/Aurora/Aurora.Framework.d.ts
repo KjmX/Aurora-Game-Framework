@@ -1,4 +1,4 @@
-declare module Kedjour.Aurora.Framework {
+declare module Aurora.Framework {
     class TimeSpan {
         private msecPerSecond;
         private msecPerMinute;
@@ -37,7 +37,7 @@ declare module Kedjour.Aurora.Framework {
         Days: number;
     }
 }
-declare module Kedjour.Aurora.Framework {
+declare module Aurora.Framework {
     class GameTime {
         private elapsedGameTime;
         private totalGameTime;
@@ -49,7 +49,7 @@ declare module Kedjour.Aurora.Framework {
         IsRunningSlowly: boolean;
     }
 }
-declare module Kedjour.Aurora.Framework.Internal {
+declare module Aurora.Framework.Internal {
     class GameClock {
         private elapsedTime;
         private lastRealTime;
@@ -61,7 +61,7 @@ declare module Kedjour.Aurora.Framework.Internal {
         ElapsedTime: number;
     }
 }
-declare module Kedjour.Aurora.Framework.Internal {
+declare module Aurora.Framework.Internal {
     class RequestAnimationFrame {
         private game;
         private isRunning;
@@ -72,7 +72,7 @@ declare module Kedjour.Aurora.Framework.Internal {
         stop(): void;
     }
 }
-declare module Kedjour.Aurora.Framework {
+declare module Aurora.Framework {
     enum TimeStepType {
         FixedTimeStep = 0,
         VariableTimeStep = 1,

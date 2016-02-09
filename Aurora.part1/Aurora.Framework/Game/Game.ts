@@ -2,10 +2,10 @@
 /// <reference path="GameClock.ts"/>
 /// <reference path="RequestAnimationFrame.ts"/>
 
-module Kedjour.Aurora.Framework {
+module Aurora.Framework {
 
-    import GameClock = Kedjour.Aurora.Framework.Internal.GameClock;
-    import RequestAnimationFrame = Kedjour.Aurora.Framework.Internal.RequestAnimationFrame;
+    import GameClock = Aurora.Framework.Internal.GameClock;
+    import RequestAnimationFrame = Aurora.Framework.Internal.RequestAnimationFrame;
 
     export enum TimeStepType {
         FixedTimeStep,

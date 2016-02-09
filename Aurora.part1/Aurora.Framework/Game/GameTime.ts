@@ -2,7 +2,7 @@
 
 /// <reference path="../Common/TimeSpan.ts"/>
 
-module Kedjour.Aurora.Framework {
+module Aurora.Framework {
     export class GameTime {
         private elapsedGameTime: TimeSpan;
         private totalGameTime: TimeSpan;

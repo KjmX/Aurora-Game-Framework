@@ -6,10 +6,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = new __();
 };
 var Aurora;
-(function (Aurora_1) {
+(function (Aurora) {
     var Preview;
     (function (Preview) {
-        var Aurora = Kedjour.Aurora.Framework;
         var MyGame = (function (_super) {
             __extends(MyGame, _super);
             function MyGame() {
@@ -26,8 +25,8 @@ var Aurora;
                 console.log("draw() => " + gameTime.ElapsedGameTime.TotalMilliseconds);
             };
             return MyGame;
-        })(Aurora.Game);
+        })(Aurora.Framework.Game);
         Preview.MyGame = MyGame;
-    })(Preview = Aurora_1.Preview || (Aurora_1.Preview = {}));
+    })(Preview = Aurora.Preview || (Aurora.Preview = {}));
 })(Aurora || (Aurora = {}));
 //# sourceMappingURL=MyGame.js.map

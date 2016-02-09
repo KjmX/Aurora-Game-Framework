@@ -1,7 +1,7 @@
 ﻿///<summary>You shouldn't use Internal module objects, these objects are part of the internal framework implementation.</summary>
 ///<summary>Game time counter</summary>
 
-module Kedjour.Aurora.Framework.Internal {
+module Aurora.Framework.Internal {
     export class GameClock {
         private elapsedTime: number;
         private lastRealTime: number;

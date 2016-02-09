@@ -1,4 +1,4 @@
-﻿module Kedjour.Aurora.Framework {
+﻿module Aurora.Framework {
     export class TimeSpan {
 
 

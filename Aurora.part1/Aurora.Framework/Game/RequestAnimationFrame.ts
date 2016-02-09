@@ -2,7 +2,7 @@
 
 ///<reference path="Game.ts"/>
 
-module Kedjour.Aurora.Framework.Internal {
+module Aurora.Framework.Internal {
 
     class AnimationFrameHandler {
         protected successor: AnimationFrameHandler;
